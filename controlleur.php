@@ -1,4 +1,3 @@
-```
 <?php
 
 namespace YourBundleName\Controller;
@@ -73,4 +72,3 @@ class ExportCsvController extends Controller
         return $response;
     }
 }
-```
