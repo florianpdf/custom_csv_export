@@ -1,0 +1,6 @@
+```Modifier YourBundleName par le nom de votre bundle```
+services:
+    csvExport:
+        class: YourBundleName\Services\CsvRepository
+        arguments: [ @doctrine.orm.entity_manager ]
+        
