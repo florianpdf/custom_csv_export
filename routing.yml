@@ -4,7 +4,7 @@ csv_show_tables:
 
 csv_show_fields:
     path:     /showFieldsCsv
-    defaults: { _controller: "PlateFormeBundle:Default:getTableField" }
+    defaults: { _controller: "PlateFormeBundle:Default:getTableFields" }
     methods:  [GET, POST]
 
 csv_export:
