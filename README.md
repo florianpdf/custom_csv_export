@@ -1,7 +1,5 @@
 # Custom CVS Export
 
-### Symfony 2.8
-
 1. Créer une controller ExportCsvController.php
 2. Ajouter les routes du fichier routing.php à votre application
 3. Créer un dossier Services dans votre bundle (YourBundleName/Services) puis y ajouter le fichier CsvRepository.php
@@ -13,3 +11,5 @@
 
 ### A faire
 1. Gérer le cas des classes enfant, pour le moment toutes les classes sont listées distinctement, si A étend B, on peut choisir soit A soit B, et B ne récupère pas les champs de A
+
+*Testé sur Symfony 2.8*
