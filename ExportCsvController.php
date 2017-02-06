@@ -19,7 +19,7 @@ class ExportCsvController extends Controller
             $entities[$m->getName()] = preg_replace('/.*\\\\/', '', $m->getName());
         }
 
-        return $this->render('@PlateForme/showTables.html.twig', array(
+        return $this->render('@YourBundleName/form.html.twig', array(
             'entities' => $entities
         ));
     }
@@ -35,7 +35,7 @@ class ExportCsvController extends Controller
         $em = $this->getDoctrine()->getManager();
         $columnEntity = $em->getClassMetadata($entity)->getFieldNames();
 
-        return $this->render('@PlateForme/showTables.html.twig', array(
+        return $this->render('@YourBundleName/form.html.twig', array(
             'columns' => $columnEntity
         ));
     }
