@@ -1,6 +1,6 @@
 {#Formulaire de selection de la table à extraire#}
 {% if entities is defined %}
-    <form action="{{ path('csv_show_field') }}" method="post">
+    <form action="{{ path('csv_show_fields') }}" method="post">
         <select name="table">
             {% for key, name in entities %}
                 <option value="{{ key }}">{{ name }}</option>
