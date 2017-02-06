@@ -28,7 +28,7 @@ class ExportCsvController extends Controller
      * List all fields for a selected entity
      *
      */
-    public function getTableFieldAction(){
+    public function getTableFieldsAction(){
         $entity = $_POST['table'];
         $session = $this->get('session');
         $session->set('linkEntity', $entity);
