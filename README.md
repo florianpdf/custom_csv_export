@@ -11,5 +11,8 @@
 
 ### A faire
 1. Gérer le cas des classes enfant, pour le moment toutes les classes sont listées distinctement, si A étend B, on peut choisir soit A soit B, et B ne récupère pas les champs de A
-
+  
+    
+      
+         
 *Testé sur Symfony 2.8*
